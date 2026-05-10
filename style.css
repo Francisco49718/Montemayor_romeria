@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#87ceeb, #7CFC00);
+  text-align: center;
+  overflow: hidden;
+}
+
+body.night {
+  background: linear-gradient(#0f2027, #203a43, #2c5364);
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+#gameArea {
+  position: relative;
+  width: 100vw;
+  height: 70vh;
+  border-top: 5px solid white;
+  overflow: hidden;
+}
+
+#player {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  font-size: 50px;
+  transform: translateX(-50%);
+}
+
+.item {
+  position: absolute;
+  font-size: 40px;
+  top: -50px;
+}
+
+#controls {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 30px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
