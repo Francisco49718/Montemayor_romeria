@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romería de Montemayor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎡 Romería de Montemayor 🎡</h1>
+<p>Recoge flores y evita peligros del camino.</p>
+
+<div id="gameArea">
+  <div id="player">🧍</div>
+</div>
+
+<h2>Puntos: <span id="score">0</span></h2>
+
+<h2 id="gameOver" style="display:none; color:red;">
+  💀 GAME OVER 💀
+</h2>
+
+<div id="controls">
+  <button onclick="moveLeft()">⬅️</button>
+  <button onclick="moveRight()">➡️</button>
+</div>
+
+<audio autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
